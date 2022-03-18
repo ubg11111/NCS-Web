@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+	ul{
+		width: 100%;
+		height: 50px;
+		background-color: #006699;
+		list-style-type: none; /*점을 제거하는 속성*/
+	}
+	
+	
+	ul li a{
+		color: white;
+		text-decoration: none; /*  태그의 글자 밑에 밑줄을제거 */
+	}
+
+	ul li {
+		display: inline-block;
+		margin: 12px 100px 10px 100px;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<!-- 
+		display 속성은 웹 페이지 상에서 요소들이 어떻게 보여지고
+		다른 요소와 어떻게 상호 배치되는지를 결정하는 속성임.
+		* inline : display 속성이 inline으로 지정된 요소는 전후 줄바꿈 없이
+					한 줄에 다른 요소들과 나란히 배치가 됨.
+					예) hn 태그, p 태그, div 태그, li 태그 등등
+					
+		* block : display 속성이 block으로 지정된 요소는 전후 줄바꿈이 들어가서
+					다른 요소들을 다른 줄로 밀어내고 혼자 한 줄을 차지함.
+					예) span 태그, img 태그
+		* inline-block : display 속성이 inline-block으로 지정된 요소는
+						기본적으로 inline 요소처럼 전후 줄바꿈이 한 줄에 다른 요소들과
+						나란히 배치가 됨.
+						하지만 inline 요소에서 불가능하던 width와 height 속성 및 margin과 padding 속성의 상하 간격 지정이 가능해짐.
+						
+										
+						
+		
+					
+	 -->
+
+	<ul>
+		<li><a href="#">회사소개</a></li>
+		<li><a href="#">사업영역</a></li>
+		<li><a href="#">제품문의</a></li>
+		<li><a href="#">고객센터</a></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*
+	CSS 파일에서의 주석 
+	
+	Ex04.html 파일과 Ex05.html 파일에 공통적으로 적용되는 선택자
+*/
+
+p{	
+	color: blue; /* 글자 색상  */
+	font-size: 20px; /* 글자크기 */
+	font-family: 궁서체; /* 글꼴(글자체) */
+	font-weight: bold; /* 글자 굵기 */
+	text-align: center; /* 글자위치 */
+
+}
+
