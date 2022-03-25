@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>병권이의 홈페이지</title>
+<link rel="stylesheet" type="text/css" href="css/style.css?after">
+<script src="https://kit.fontawesome.com/27a0dd965d.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+	onload = function(){
+		setTimeout(function (){
+			scrollTo(0,0);
+		}, 100);
+	}
+</script>
+</head>
+<body>
+	<div class="main">
+		<div class="videoMain">	
+			<a name="a">
+				<video src="images/fall.mp4" class="video" width="100%" height="auto" autoplay muted loop></video>
+			</a> 
+		
+			<div class="text1">
+				<p class="text_dynamic">나만의 공간을 프로그래밍 하다.</p>
+				<p class="typing"></p>
+				<p>재미있습니다. 모든것이</p>
+			</div>
+			
+			<!-- a링크로 하여 링크클릭시 해당 단락으로 이동하게끔 정리 -->
+			<div class="navi">
+				<ul class="move">
+					<li><a href="#a">Home</a></li>
+					<li><a href="#b">About</a></li>
+					<li><a href="#c">MyPortfolio</a></li>
+					<li><a href="#d">End</a></li>
+				</ul>
+			</div>
+			
+			<!-- 로그인 화면 클릭시 로그인창과 회원가입창 따로 구현하기 -->
+			<div class="inSite">
+				<input type="submit" value="Login" class="login">
+				<input type="submit" value="Join" class="join">
+			</div>
+			
+		</div>
+	</div>
+	
+		<div class="about">
+			<div class="me">
+				<h3><a name="b">WHO IS ME?</a></h3>
+			</div>			
+			
+			<div class="aticle">
+				<img alt="" src="images/개인사진.jpg" class="myImg">
+				
+				<div class="contante-box1">
+					<span>소개</span><br>
+					<span>이름 : 유병권</span><br>
+					<span>나이 : 30(1993.09.24)</span><br>
+					<span>주소 : 경기도 동두천시</span><br>
+					<span>이메일  : ubg11111@naver.com</span><br>
+				</div>
+				
+				<div class="contante-box1">	
+					<span>경력사항</span><br>
+					<span>2016.05 컴퓨터활용능력2급</span><br>
+					<span>2019.03 국외인솔자 자격증</span><br>
+					<span>2020.07  전산회계 자격증1급,2급</span><br>
+					<span>2022.07  KH정보교육원 국비과정수료(예정)</span><br>
+				</div>
+			
+			</div>
+		</div>
+	
+	
+	
+		<div class="myPortfolio">
+			<div class="portfolio">
+				<h2 style="font-size: 50px"><a name="c">PORTFOLIO</a></h2>
+				<a href="https://wetube-bang.herokuapp.com" target="blank"><img alt="" src="images/유튜브.png"></a>
+				<a href="https://ubg11111.github.io/kokoa-clone-2021" target="blank"><img alt="" src="images/카카오.jpg"></a>
+				<a href="https://ubg11111.github.io/WebJS" target="blank"><img alt="" src="images/투두리스트.png"></a>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="Mylanguage">
+			<div class="language">
+				<h2 style="font-size: 50px">SKILL</h2>
+				<i class="fa-brands fa-html5" style="font-size: 150px"></i>
+				<div style="display:inline-block">
+					<p>HTML</p> 
+					<p>70%</p>	
+				</div>
+				
+				<i class="fa-brands fa-css3-alt" style="font-size: 150px"></i>
+				<div style="display:inline-block">
+					<p>CSS</p> 
+					<p>60%</p>	
+				</div>
+				
+				<i class="fa-brands fa-js" style="font-size: 150px"></i>
+				<div style="display:inline-block">
+					<p>JavaScript</p> 
+					<p>60%</p>	
+				</div>
+				
+				<i class="fa-brands fa-java" style="font-size: 150px"></i>
+				<div style="display:inline-block">
+					<p>Java</p> 
+					<p>60%</p>	
+				</div>
+				
+				<i class="fa-solid fa-database" style="font-size: 150px;"></i>
+				<div style="display:inline-block">
+					<p>OracleDateBase</p> 
+					<p>60%</p>	
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="endMe">
+			<div class="contatc">
+				<a name="d"><img alt="" src="images/나무.jpg" width="100%" height="600px" class="tree"></a>
+			</div>
+			
+			<div class="contatc_text">
+				<p>부족하지만 계속해서 성장하고 있습니다.<br>
+				새로운 경험을 중요시하고 변화에 민감한 개발자가 되는것이 목표입니다.<br>
+				문의사항은 아래와 같이 카카오톡 채팅방을 통해 개인채팅을 주시면 답변드리도록 하겠습니다.<br> 
+				부족한 홈페이지 봐주셔서 감사합니다.<br>
+				</p>
+				
+				<img alt="" src="images/카카오큐알.jpg" width="20%" height="20%">
+			</div>
+			
+		</div>
+		
+		
+		
+		<footer class="foot">
+		
+			<p>CopyRight&copy;. BYEONGGWON YU All right reserved</p>
+		
+		</footer>
+	
+	
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

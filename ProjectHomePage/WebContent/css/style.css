@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+
+body{
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+/* main 라인 */
+
+.video{
+	opacity: 0.8;
+	overflow:hidden;
+	margin: 0px auto;
+	position: relative;
+}
+
+
+.text1{
+	position: absolute;
+	width: 100%;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.text_dynamic{
+	display: none;
+	opacity: 0;
+}
+
+.text1 p{
+	text-align: center;
+	font-size: 30px;
+}
+
+.navi{
+	position:fixed;
+	top: 0%;
+	width: 100%;
+	padding: 10px;
+	list-style: none;
+	text-decoration-line: none;
+	z-index: 1;
+}
+
+.navi:hover{
+	background-color: white;
+}
+
+.move{
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+.move a{
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+
+.inSite{
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	left: 135%;
+	transform: translate(-50%, -50%);
+}
+
+.login{
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 60px;
+}
+
+.join{
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 60px;
+	margin-left:40px;
+}
+
+.login:hover{
+	color: gray;
+}
+
+.join:hover{
+	color: gray;
+}
+
+
+/* section 라인 */
+
+
+/* 소개라인 */
+
+
+.me{
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	font-size: 40px;
+	margin-bottom: 150px;
+	padding-top: 70px;
+}
+
+.me p{
+	font-weight: 400;
+}
+
+.aticle{
+	display:flex;
+	justify-content: center;
+	margin: 20px 40px 40px 0px;
+	background-color: rgba(255,255,128, 0.1);
+	width:100%;
+}
+
+.myImg{
+	width: 500px;
+	object-fit:cover;
+}
+
+.contante-box1 {
+	justify-content: end;
+	margin: 10px 60px;
+	line-height: 100px;
+	padding-left: 50px;
+	word-spacing: 15px;
+}
+
+.contante-box1 span:nth-of-type(1){
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 나눔고딕,NanumGothic,돋움;
+	color: rgb(153,153,255);
+	
+}
+
+.contante-box1 span:not(span:nth-of-type(1)){
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 나눔고딕,NanumGothic,돋움;
+	opacity: 0.8;
+}
+
+
+/* 포트폴리오 라인  */
+
+.portfolio{
+	width: 100%;
+	text-align: center;
+	margin: 100px 30px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+.portfolio img{
+	width: 400px;
+	height: 200px;
+	border-radius: 10px;
+	object-fit: contain;
+	margin: 100px 60px;
+}
+
+.portfolio img:hover{
+	opacity: 0.5;
+	height: 250px;
+}
+
+
+/* 사용하는 언어 */
+
+.language{
+	width:100%;
+	height:100%;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 300px;
+}
+
+.language i{
+	display:inline-block;
+	margin: 60px;
+}
+
+.language div{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.contatc{
+	background-color: black;
+}
+
+
+/* QR코드 공유 */
+
+.contatc{
+	margin-bottom: 200px;
+	padding: 0;
+}
+
+.tree{
+	padding: 0;
+	object-fit:cover;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.contatc_text{
+	position: absolute;
+	text-align:center;
+	top:430%;
+	left:55%;
+	transform: translate(-50%, -50%);
+}
+
+.contatc_text p{
+	width: 100%;
+	font-size: 21px;
+	font-weight: 400;
+	font-family: "나눔고딕","맑은고딕";
+	color: white;
+	opacity: 0.8;
+	text-shadow: 1px 2px 2px gray;
+	padding: 10px 0px;
+	line-height: 50px;
+}
+
+
+
+
+/* footer */
+
+.foot p{
+	width:100%;
+	height: 40px;
+	margin:0;
+	padding-top: 15px;
+	text-align: center;
+	background-color: gray;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
